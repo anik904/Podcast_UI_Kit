@@ -1,0 +1,19 @@
+{
+    "name": "podcast_ui_kit",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "node-sass assets/main.scss build/main.css --output-style compact ",
+        "watch": "node-sass assets/main.scss build/main.css --output-style compact -w "
+    },
+    "author": "anik",
+    "license": "ISC",
+    "dependencies": {
+        "@fortawesome/fontawesome-free": "^5.15.4",
+        "bootstrap": "^5.1.3",
+        "node-sass": "^7.0.1",
+        "normalize.css": "^8.0.1"
+    }
+}
