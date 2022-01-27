@@ -1,3 +1,21 @@
 .text--span {
     color: #7B7A7C;
 }
+
+.round--top {
+    border-radius: 35px 35px 0px 0px;
+    margin-top: 120px;
+    height: min-content;
+}
+
+.margin--tp {
+    margin-top: 135px;
+}
+
+@media screen and (min-width: 992px) {}
+
+@media only screen and (max-width:440px) {
+    *body {
+        background: #000;
+    }
+}
